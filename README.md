@@ -95,4 +95,4 @@ CertUtil: -addstore 명령이 성공적으로 완료되었습니다.
 - Chrome이나 Whale등의 브라우저에서 페이지 번역 기능을 쓴 채 접속할 때 간헐적인 무한 재로딩 현상이 발생합니다. 이때는 빠르게 프로그램을 끄고 재시작하세요. 번역기로부터 IP밴을 먹을 수도 있습니다.
 
 ## 참고
-[번역기 코드 참고](https://github.com/009342/Nico-Nico-Video-Translator)
+[번역기 코드 참고](https://github.com/ttop32/MouseTooltipTranslator)
