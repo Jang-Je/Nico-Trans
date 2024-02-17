@@ -1,0 +1,19 @@
+{
+  "name": "niconicotranslator",
+  "version": "0.0.0",
+  "description": "NicoNicoTranslator",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.52"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "uuid": "^9.0.1"
+  }
+}
