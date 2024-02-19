@@ -148,6 +148,7 @@ else {
                         }
                     }
                     if (isStudy == 1) {
+                        console.log("-".repeat(100));
                         sortedchat.sort((a, b) => a.time - b.time);
                         for (var i in sortedchat) {
                             var time = Math.floor(sortedchat[i].time / 1000);
@@ -158,12 +159,16 @@ else {
                             console.log("")
                         }
                     }
+                    try {
                     for (var i in easythread['comments']) {
                         var commentBody = easythread['comments'][i]['body'];
                         if (!isEmpty(commentBody)) {
                             jsonbody['data']['threads'][2]['comments'][i]['body'] = EasyTranslator(commentBody);
                         }
                     }
+                } catch (e) {
+                    console.log("간편코멘트가 없습니다.");
+                }
                 }
                 if (usedTranslator == 0) console.log("번역하지 않음으로 설정되어 있습니다. (translator : 0)")
                 res.write(JSON.stringify(jsonbody));
