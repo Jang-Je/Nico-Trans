@@ -8,13 +8,7 @@
 
 ## 사용법
 
-1. node.js와 OpenSSL의 설치가 선행되어야 합니다.
-
-윈도우용 OpenSSL의 설치는 다음 링크의 Download Win32 OpenSSL을 참고해주세요.
-
-https://slproweb.com/products/Win32OpenSSL.html
-
-※OpenSSL을 release의 cert폴더에 설치해주셔야 합니다!
+1. node.js의 설치가 선행되어야 합니다.
 
 node.js의 설치는 다음 링크를 참고해주세요.
 
@@ -75,6 +69,7 @@ CertUtil: -addstore 명령이 성공적으로 완료되었습니다.
 </pre></code>
 
 8. 다운받은 파일의 run.bat를 실행시켜 주시면 자동으로 동영상 열람시 번역이 됩니다.
+  ※제보받은 내용인데, 혹시 여기서 오류가 나면 run.bat를 관리자 권한으로 실행 시켜 보시기 바랍니다.
 
 9. 한 번만 실행시켜 놓으면 컴퓨터나 프로그램이 꺼지지 않는한 자동 번역이 이뤄집니다.
 
