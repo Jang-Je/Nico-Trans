@@ -18,7 +18,7 @@ https://slproweb.com/products/Win32OpenSSL.html
 
 node.js의 설치는 다음 링크를 참고해주세요.
 
-https://nodejs.org/ko/
+https://nodejs.org/en/
 
 2. 메모장을 관리자 권한으로 실행합니다.
 
