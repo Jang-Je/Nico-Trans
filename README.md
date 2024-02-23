@@ -52,9 +52,9 @@ https://nodejs.org/ko/
 
 5. https://github.com/Jang-Je/Nico-Trans/releases 에서 니코니코 동화 번역기를 다운받아주세요.
 
-6. 다운받은 파일의 압축을 풀어주고 cert폴더 내의 cert.bat를 관리자권한으로 실행시켜 주세요.
+6. http://wiki.overbyte.eu/wiki/index.php/ICS_Download 에서 Download OpenSSL Binaries (required for SSL-enabled components) 항목의 최신 버전의 OpenSSL을 다운로드 받은 다음 cert폴더 내에 압축을 풀어주세요.
 
-7. 정상적으로 인증서가 설치되면 다음과 같이 출력되어야 합니다.
+7. cert폴더 내의 cert.bat를 관리자권한으로 실행시켜 주세요. 정상적으로 인증서가 설치되면 다음과 같이 출력되어야 합니다.
 <pre><code>관리자 권한으로 실행해야 인증서가 설치됩니다!
 계속하려면 아무 키나 누르십시오 . . .
 개인키를 생성하는 중입니다...
