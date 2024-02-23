@@ -1,4 +1,4 @@
-﻿# 니코니코 동화 번역기
+﻿asdf# 니코니코 동화 번역기
 
 ## 원 제작자에 관하여
 
@@ -13,6 +13,8 @@
 윈도우용 OpenSSL의 설치는 다음 링크의 Download Win32 OpenSSL을 참고해주세요.
 
 https://slproweb.com/products/Win32OpenSSL.html
+
+※OpenSSL을 release의 cert폴더에 설치해주셔야 합니다!
 
 node.js의 설치는 다음 링크를 참고해주세요.
 
